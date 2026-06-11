@@ -1,0 +1,169 @@
+.checkout-page {
+  background: #fdf3f7;
+  min-height: 100vh;
+  padding: 40px 0;
+}
+
+.checkout-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.checkout-container h1 {
+  text-align: center;
+  color: #c23b73;
+  margin-bottom: 30px;
+}
+
+.order-summary {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+.order-summary h2 {
+  margin-bottom: 20px;
+  color: #444;
+}
+
+.summary-card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 15px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.summary-image img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.summary-info {
+  flex: 1;
+}
+
+.summary-info h3 {
+  color: #444;
+  margin-bottom: 10px;
+}
+
+.summary-info p {
+  margin: 5px 0;
+}
+
+.summary-price {
+  font-size: 24px;
+  font-weight: bold;
+  color: #c23b73;
+}
+
+.total {
+  text-align: right;
+  margin-top: 20px;
+  font-size: 28px;
+  font-weight: bold;
+  color: #c23b73;
+}
+
+.recipient-form {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+.recipient-form h2 {
+  margin-bottom: 25px;
+  color: #444;
+}
+
+.row {
+  display: flex;
+  gap: 20px;
+}
+
+.form-group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #555;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+.continue-btn {
+  background: #457dad;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.checkout-btn {
+  padding: 10px;
+  background: #e75480;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.checkout-btn:hover {
+  background: #c23b73;
+}
+
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column;
+  }
+
+  .summary-card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .summary-price {
+    margin-top: 10px;
+  }
+}
+
+.checkout-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+
+@media (max-width: 768px) {
+  .checkout-footer {
+    flex-direction: column-reverse;
+    gap: 15px;
+  }
+
+  .back-btn,
+  .checkout-btn {
+    width: 100%;
+  }
+}

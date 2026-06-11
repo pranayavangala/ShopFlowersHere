@@ -1,0 +1,19 @@
+.features {
+  display: grid;
+
+  grid-template-columns: repeat(5, 1fr);
+
+  padding: 35px;
+
+  background: white;
+
+  text-align: center;
+}
+
+.features div {
+  padding: 20px;
+}
+
+.features h3 {
+  margin-top: 10px;
+}

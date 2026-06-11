@@ -1,0 +1,16 @@
+.flower-card {
+  background: white;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.flower-card img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+}
+
+.flower-card:hover {
+  transform: translateY(-8px);
+}
