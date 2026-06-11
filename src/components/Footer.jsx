@@ -18,7 +18,7 @@ function Footer() {
         </div>
 
         <p className="footer-copy">
-          © 2026 Nirnaya Florals. All Rights Reserved.
+          © 2026 Nirnaya Florals. All Rights Reserved by Pranaya Reddy Vangala
         </p>
       </div>
     </footer>

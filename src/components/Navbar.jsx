@@ -25,7 +25,12 @@ function Navbar() {
   return (
     <nav className="navbar">
       <Link to="/" className="logo">
-        🌸 Nirnaya Florals
+        <div className="logo-container">
+          <span className="logo-title">🌸 Nirnaya Florals</span>
+          <span className="logo-subtitle">
+            Designed & Developed by Pranaya Reddy
+          </span>
+        </div>
       </Link>
 
       <div className="nav-center">

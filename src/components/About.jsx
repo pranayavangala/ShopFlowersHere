@@ -35,6 +35,50 @@ function About() {
               service while spreading happiness to every doorstep.
             </p>
 
+            <h2>Meet the Developer 👩‍💻✨</h2>
+
+            <p
+              style={{
+                fontStyle: "italic",
+                fontSize: "15px",
+                lineHeight: "1.9",
+                color: "#555",
+                background: "#fff8fc",
+                padding: "20px",
+                borderLeft: "5px solid #d63384",
+                borderRadius: "10px",
+                marginTop: "15px",
+              }}
+            >
+              "Hello and welcome! I'm <strong>Pranaya Reddy</strong>, the
+              creator and developer behind <strong>Nirnaya Florals</strong>.
+              This website is more than just a flower shop—it's a reflection of
+              my passion for building beautiful, scalable, and user-friendly
+              applications using{" "}
+              <strong>
+                React, JavaScript, Python, FastAPI, SQL, REST APIs, and modern
+                web technologies
+              </strong>
+              .
+              <br />
+              <br />
+              Every page, component, API, and feature you see here was designed
+              and developed by me with dedication, creativity, and countless
+              hours of learning and problem-solving. My goal was to combine the
+              elegance of flowers with the power of technology to create a
+              seamless digital experience.
+              <br />
+              <br />
+              As a Full-Stack Software Developer, I enjoy transforming ideas
+              into real-world applications that are responsive, secure, and
+              visually engaging. This project demonstrates my experience in
+              frontend development, backend development, authentication, REST
+              APIs, database management, cloud deployment, and modern software
+              architecture.
+              <br />
+              <br />
+            </p>
+
             <Link to="/flowers">
               <button className="about-btn">Explore Our Collection</button>
             </Link>
@@ -69,8 +113,8 @@ function About() {
 
         <div className="about-stats">
           <div className="stat">
-            <h2>5000+</h2>
-            <p>Happy Customers</p>
+            <h2>5000 +</h2>
+            <p>Happy customers</p>
           </div>
 
           <div className="stat">
